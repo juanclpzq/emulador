@@ -27,9 +27,9 @@ import LogoGameBoyAdvanced from '../assets/logos_consolas/Game_Boy_Advanced_Logo
 import LogoNeoGeo from '../assets/logos_consolas/Neo_Geo_Logo.svg';
 import LogoNintendo64 from '../assets/logos_consolas/Nintendo_64_Logo.svg';
 import LogoGameBoy from '../assets/logos_consolas/Nintendo_Game_Boy_Logo.svg';
-import LogoPlaystation from '../assets/logos_consolas/Playstation_1_Logo.svg';
-import LogoPlaystation2 from '../assets/logos_consolas/Playstation_2_Logo.svg';
-import LogoPlaystation3 from '../assets/logos_consolas/Playstation_3_Logo.svg';
+import LogoPlaystation from '../assets/logos_consolas/PlayStation_1_Logo.svg';
+import LogoPlaystation2 from '../assets/logos_consolas/PlayStation_2_Logo.svg';
+import LogoPlaystation3 from '../assets/logos_consolas/PlayStation_3_Logo.svg';
 import LogoPSP from '../assets/logos_consolas/PlayStation_Portable_Logo.svg';
 import LogoDreamCast from '../assets/logos_consolas/Sega_Dreamcast_Logo.svg';
 import LogoSegaMasterSystem from '../assets/logos_consolas/Sega_Master_System_Logo.svg';
