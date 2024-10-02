@@ -36,6 +36,7 @@ import LogoSegaMasterSystem from '../assets/logos_consolas/Sega_Master_System_Lo
 import LogoSuperNintendo from '../assets/logos_consolas/Super_Nintendo_Logo.png';
 import LogoWii from '../assets/logos_consolas/Wii_Logo.png';
 import LogoXbox from '../assets/logos_consolas/Xbox_Logo.svg';
+import PeoplePlayingGames from '../assets/People-playing-games.webp';
 
 
 
@@ -200,7 +201,8 @@ const Home = () => {
 
                 {/* Imagen y Texto de Diversión y Nostalgia */}
                 <Box sx={{ mt: 8, textAlign: 'center' }}>
-                    <ConsoleImage src="src/assets/People-playing-games.webp" alt="Retro Gaming"
+                    <ConsoleImage src={PeoplePlayingGames}
+                     alt="Retro Gaming"
                         sx={{
                             width: '50%',
                             borderRadius: '10px',
