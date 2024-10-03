@@ -71,6 +71,16 @@ const ConsoleImage = styled('img')({
     width: '100%',
     borderRadius: '15px',
     marginBottom: '20px',
+
+    // Media query para dispositivos móviles
+    '@media (max-width: 600px)': {
+        width: '100%', // 100% en móviles
+    },
+
+    // Para pantallas más grandes puedes mantener el 50%
+    '@media (min-width: 601px)': {
+        width: '50%', // 50% en pantallas más grandes
+    },
 });
 
 const BottomBar = styled(Box)(({ theme }) => ({
@@ -201,14 +211,15 @@ const Home = () => {
 
                 {/* Imagen y Texto de Diversión y Nostalgia */}
                 <Box sx={{ mt: 8, textAlign: 'center' }}>
-                    <ConsoleImage src={PeoplePlayingGames}
-                     alt="Retro Gaming"
+                    <ConsoleImage
+                        src={PeoplePlayingGames}
+                        alt="Retro Gaming"
                         sx={{
-                            width: '50%',
                             borderRadius: '10px',
                             marginBottom: '20px',
-                            border: `4px solid ${theme.palette.primary.main}`
-                        }} />
+                            border: `4px solid ${theme.palette.primary.main}`,
+                        }}
+                    />
                     <Typography variant="h4" gutterBottom>
                         Diversión y Nostalgia
                     </Typography>
